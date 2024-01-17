@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9eff1;
+  background-image: linear-gradient(to top right, #cfd9df 0%, #e2ebf0 100%);
+  background-attachment: fixed;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#addTaskForm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#addTaskForm input[type="text"] {
+  padding: 10px;
+  width: 75%;
+  border: 2px solid #d1d1d1;
+  border-radius: 4px;
+}
+#addTaskForm button {
+  padding: 10px 20px;
+  background-color: #0088a9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#addTaskForm button:hover {
+  background-color: #007b94;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+}
+ul li:hover {
+  background-color: #f5f5f5;
+}
+ul li button {
+  padding: 5px 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ul li button:hover {
+  background-color: #ff5252;
+}
+ul li input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
